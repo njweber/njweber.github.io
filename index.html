@@ -1,8 +1,8 @@
 <html>
-		<head>
+    <head>
 		<meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
 		<title>Nate's Portfolio</title>
-		<link rel="icon" href="C:\Users\Nate\Documents\GitHub\njweber.github.io\N8.png" type="image/png" sizes="16x16">
+		<link rel="icon" href="N8.png" type="image/png" sizes="16x16">
 		<style type='text/css'>
 		
 			body {
@@ -11,124 +11,94 @@
 				font-family: Verdana;
 				line-height: 1.5em;
 				text-align: center;
-				
+                background-color: gray;
+                background-image: url("https://www.transparenttextures.com/patterns/brushed-alum.png");
 			}
-			#header {
-				background-color: #12303a;
-				background-image: url("https://www.transparenttextures.com/patterns/always-grey.png");	
-				text-shadow: 2px 2px 10px white;
-				padding-top: 0;
-				height: 120px;
-				color: white;
-				text-align: center;
+            h1{
+                width: 100%;
+                color: gray;
+                text-shadow: .5px .5px white;
+                font-family: cursive;
+                font-size: 28px;
+                padding-top: 65px;
+                text-align: center;  
+            }
+            h2{
+                width: 100%;
+                color: gray;
+                text-shadow: .25px .25px white;
+                font-family: cursive;
+                font-size: 15px;
+                text-align: center;  
+            }
+			.headerLeft {
+                padding: 10px;
+                float:left;
 			}
-			
-			#header h1 {
-				margin: 0;
-				padding-top: 25px;
+            .imageContainer{
+                position: absolute;
+                top: 60%;
+                left: 50%;
+                width: 250px;
+                height: 250px;
+                margin-top: -250px; /* Half the height */
+                margin-left: -250px; /* Half the width */
+            }
+            .dot {
+                position: absolute;
+                height: 250px;
+                width: 250px;
+                background-color: #13303a;
+                border-radius: 50%;
+                display: inline-block;
+            }
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+            }
+            li {
+                display: inline;
+            }
+            a{
+                text-decoration: none;
+            }
+			footer{
+				position: absolute;
+                bottom: 0;
+                text-align: center;
+                width: 100%;
+                height: auto;
+                margin: 50px auto;
 			}
-			#header h2 {
-				margin: 0;
-				padding-top: 25px;
-				font-size:20px;
-			}
-			#footer {
-				clear: left;
-				width: 100%;
-				bottom: 0;
-				color: white;
-				position: fixed;
-				background-color: #12303a;
-				background-image: url("https://www.transparenttextures.com/patterns/always-grey.png");	
-				text-align: center;
-				text-shadow: 2px 2px 5px white;
-				padding: 4px 0;
-			}
-	
-			#wrapper {
-				overflow: hidden;
-			}
-			
-			#lifeblurb {
-				text-align: center;
-				padding-top: 50px;
-				padding-left: 150px;
-				padding-right: 150px;
-			}
-			#nav{
-				background: gray;
-				background-image: url("https://www.transparenttextures.com/patterns/always-grey.png");	
-				width: 100%;
-				margin:0;
-				padding-bottom: 30px;
-				padding-top: 20px;
-			}
-			#links {
-				word-spacing: 6em;
-				line-height: 1.5;
-				display: inline-block;
-				vertical-align: middle;
-			}
-			.innertube {
-				margin: 15px; /* Padding for content */
-				margin-top: 0;
-				
-			}
-			a{
-				background-color: white;
-				color: black;
-				padding: 10px 15px;
-				text-align: center;
-				text-decoration: none;
-				display: inline-block;
-				word-spacing: 0em;
-			}
-			a:hover{
-				background-color: #00679e;
-				color: white;
-			}
-		
-		</style>	
-	
+        </style>
 	</head>
 	<body>
-		<header id='header'>
-			<div class='innertube'>
-				<h1>Nate Weber</h1>
-				<h2>Computer Science Student</h2>
-			</div>
-		</header>
-
-		<div id='wrapper'>
-			<div id='nav'>
-				<div id='links'>
-					<a href="projects">Projects</a>
-					<a href="resume">Resume</a>
-					
-					<a href="https://www.linkedin.com/in/nathanielweber121197/", target="_blank">
-						<img src="https://tctechcrunch2011.files.wordpress.com/2014/02/linkedin_logo.png" alt="LinkedIn" style="width:42px;height:42px;border:0;">
-					</a>
-					<img src="N8.png" alt="N8 Icon" width="100px" height="100px">
-					<a href="https://github.com/njweber", target="_blank">
-						<img src="https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/github-512.png" alt="Github" style="width:42px;height:42px;border:0;">
-					</a>
-
-					<a href="contact">Contacts</a>
-					<a href="life">My Life</a>
-				</div>
-			</div>
-			<div id='lifeblurb'>
-				<p>Hello! My name is Nate Weber. I am a college student studying computer science at Valparaiso University. 
-				I've loved working with computers ever since I was young, and still love every second of it! I created this site
-				to hopefully get my name out there and show people what I can do. </p>
-			</div>
-		</div>
-
-		<footer id='footer'>
-			<div class='innertube'>
-				<p>&copy; Copyright &#124; 2017 Nate Weber</p>
-			</div>
-		</footer>
+        <div class="headerLeft">
+            <img src="N8.png" width="75px" height="75px">
+        </div>
+        <div class="imageContainer">
+            <a href="projects">
+                <span class="dot">
+                    <h1>Nate Weber</h1>
+                    <h2>Student / Programmer</h2>
+                </span>
+            </a>
+        </div>
 	</body>
+     <footer>
+            <a href="https://github.com/njweber" target="_blank">
+            <li><img src="github.png" width="50px" height="50px"></li>
+            </a>
+            <a href="https://www.linkedin.com/in/nathanielweber121197/" target="_blank">
+            <li><img src="linkedin.png" width="50px" height="50px"></li>
+            </a>
+            <a href="https://www.instagram.com/nate.weber/?hl=en" target="_blank">
+            <li><img src="instagram.png" width="50px" height="50px"></li>
+            </a>
+            <a href="https://open.spotify.com/user/1231988138?si=yyxQZT1MRvyqXpIugjMfFg" target="_blank">
+            <li><img src="spotify.png" width="50px" height="50px"></li>
+            </a>
+        </footer>
 </html>
 		
