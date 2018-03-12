@@ -1,7 +1,7 @@
 <html>
     <head>
 		<meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
-		<title>Nate's Portfolio</title>
+		<title>Nate Weber</title>
 		<link rel="icon" href="N8.png" type="image/png" sizes="16x16">
 		<style type='text/css'>
 		
@@ -11,94 +11,130 @@
 				font-family: Verdana;
 				line-height: 1.5em;
 				text-align: center;
-                background-color: gray;
-                background-image: url("https://www.transparenttextures.com/patterns/brushed-alum.png");
+                background-color: lightgray;
 			}
             h1{
                 width: 100%;
-                color: gray;
-                text-shadow: .5px .5px white;
+                color: black;
                 font-family: cursive;
-                font-size: 28px;
+                font-size: 45px;
                 padding-top: 65px;
                 text-align: center;  
             }
             h2{
                 width: 100%;
-                color: gray;
-                text-shadow: .25px .25px white;
+                color: black;
                 font-family: cursive;
-                font-size: 15px;
+                font-size: 25px;
                 text-align: center;  
             }
-			.headerLeft {
-                padding: 10px;
-                float:left;
-			}
-            .imageContainer{
-                position: absolute;
-                top: 60%;
-                left: 50%;
-                width: 250px;
-                height: 250px;
-                margin-top: -250px; /* Half the height */
-                margin-left: -250px; /* Half the width */
+            h3{
+                width: 100%;
+                color: black;
+                font-family: cursive;
+                font-size: 25px;
+                text-align: center;
+                
             }
-            .dot {
+            .back-img{
+                width: 100%;
+                height: 100%;
+                max-height: 100%;
+                margin: 0;
+                padding: 0;
+                background-image: url("valpo.jpg");
+                background-size:100% 100%;
+                background-repeat: no-repeat;
+                opacity: 0.90;
+                background-color: black;
+            }
+            .titleContainer{
                 position: absolute;
-                height: 250px;
-                width: 250px;
-                background-color: #13303a;
-                border-radius: 50%;
-                display: inline-block;
+                width: 100%;
+                margin: auto;
+                text-align: center;
+                top: 15%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+            .projects{
+                background-color: white;
+                padding-top: 25px;
+                padding-bottom: 25px;
+                width: 100%;
+            }
+            .box{
+                border: 2px solid black;
+                padding: 25px;
+                margin: 25px; 
+            }
+            .contact{
+                background-color: lightgray;
+                padding: 25px;
             }
             ul {
                 list-style-type: none;
                 margin: 0;
                 padding: 0;
+                overflow: hidden;
             }
-            li {
+            li{
                 display: inline;
+            }
+            li a {
+                display: inline-block;
+                color: white;
+                text-align: center;
+                padding-left: 20px;
+                padding-right: 20px;
+                text-decoration: none;
             }
             a{
                 text-decoration: none;
             }
-			footer{
-				position: absolute;
-                bottom: 0;
-                text-align: center;
-                width: 100%;
-                height: auto;
-                margin: 50px auto;
-			}
         </style>
 	</head>
 	<body>
-        <div class="headerLeft">
-            <img src="N8.png" width="75px" height="75px">
+        <div class="back-img"></div>
+        <div class="titleContainer">
+                <h1>Nate Weber</h1>
+                <h2>Computer Science/Engineering Student at Valparaiso University</h2>
         </div>
-        <div class="imageContainer">
-            <a href="projects">
-                <span class="dot">
-                    <h1>Nate Weber</h1>
-                    <h2>Student / Programmer</h2>
-                </span>
-            </a>
+        <div class="projects">
+            <h3>Projects</h3>
+            <div class="box">
+            Student Senate Project
+            </div>
+            <div class="box">
+            Paint Project
+            </div>
+            <div class="box">
+            Portfolio Website
+            </div>
+            <div class="box">
+            Timecard Application
+            </div>
+        </div>
+        <div class="contact">
+            <h3>Connect</h3>
+            <ul>
+            <li><a href="mailto:nate.weber@valpo.edu" target="_blank">
+                <img src="email.png" height="50px"    width="50px">
+            </a></li>
+            <li><a href="NJWResume.pdf" target="_blank">
+                <img src="resume.png" height="50px"    width="50px">
+            </a></li>
+            <li><a href="https://github.com/njweber" target="_blank">
+                <img src="github.png" height="50px" width="50px">
+            </a></li>
+            <li><a href="https://www.linkedin.com/in/nathanielweber121197/" target="_blank">
+                 <img src="linkedin.png" height="50px" width="50px">
+            </a></li>
+            <li><a href="https://open.spotify.com/user/1231988138?si=v_49xx_1QGWOjthodYfNDA" target="_blank">
+                 <img src="spotify.png" height="50px" width="50px">
+            </a></li>
+            </ul>
         </div>
 	</body>
-     <footer>
-            <a href="https://github.com/njweber" target="_blank">
-            <li><img src="github.png" width="50px" height="50px"></li>
-            </a>
-            <a href="https://www.linkedin.com/in/nathanielweber121197/" target="_blank">
-            <li><img src="linkedin.png" width="50px" height="50px"></li>
-            </a>
-            <a href="https://www.instagram.com/nate.weber/?hl=en" target="_blank">
-            <li><img src="instagram.png" width="50px" height="50px"></li>
-            </a>
-            <a href="https://open.spotify.com/user/1231988138?si=yyxQZT1MRvyqXpIugjMfFg" target="_blank">
-            <li><img src="spotify.png" width="50px" height="50px"></li>
-            </a>
-        </footer>
 </html>
 		
